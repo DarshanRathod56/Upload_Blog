@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "776427230559",
+    "firebase_url": "https://uploadbloag.firebaseio.com",
+    "project_id": "uploadbloag",
+    "storage_bucket": "uploadbloag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776427230559:android:202855a31c003049",
+        "android_client_info": {
+          "package_name": "devicecosmos.com.uploadbloag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776427230559-s5m20quf2u86uvuks9dru2jjrc6320sp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "devicecosmos.com.uploadbloag",
+            "certificate_hash": "d1814dd8eeeab4eaf9a08bc36549b63129dea9d4"
+          }
+        },
+        {
+          "client_id": "776427230559-e6v5voo1v7b2288ag1ub4oe3t89d0htf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQswf1xYIcLxkxz4_y6hOnGusRlSoBJNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776427230559-e6v5voo1v7b2288ag1ub4oe3t89d0htf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

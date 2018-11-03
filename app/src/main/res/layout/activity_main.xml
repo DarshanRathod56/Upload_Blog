@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFD8DC"
+    android:id="@+id/rel"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Title:"
+            android:layout_marginTop="10dp"
+            android:id="@+id/editTitle"
+            android:textColorHint="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Date:"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Time:"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editTag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Tags:"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/editDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint=" Enter Blog Details:"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+        <EditText
+            android:id="@+id/editYoutube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint=" Enter Youtube link:"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+        <EditText
+            android:id="@+id/editBlogID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint=" Enter Blog ID:"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+        <ImageView
+            android:id="@+id/editImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:onClick="ImageViewClicked"
+            android:src="@drawable/cam" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#f0b778"
+            android:layout_gravity="center"
+            android:text="Upload"
+            android:textColor="@android:color/white" />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+
+</ScrollView>
